@@ -1,0 +1,71 @@
+.caption-center {
+  top: 40%;
+}
+#tickets {
+  color: rgb(16, 202, 16);
+}
+.backphoto {
+  background-image: url(./images/ba1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 500px;
+}
+
+#navbarSupportedContent {
+  justify-content: end;
+}
+
+.titular {
+  text-align: center;
+}
+
+.formulario {
+  width: 50%;
+  margin: 1rem auto;
+}
+
+#button-enviar {
+  background-color: #7bb42a;
+}
+
+#footer {
+  background-color: #21485d;
+  height: ;
+}
+
+.nav-link {
+  color: whitesmoke;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #lugar-texto {
+    padding: 2px 10px;
+    width: 98%;
+    margin: 2px 5px;
+    text-align: center;
+  }
+
+  #lugar-button {
+    margin: 1em auto;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  #tarjeta-ada {
+    margin: 2px auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #tarjeta-steve,
+  #tarjeta-bill {
+    margin: 2px auto;
+  }
+
+  #lugar {
+    margin: 2px auto;
+  }
+}
